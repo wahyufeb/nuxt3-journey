@@ -74,11 +74,21 @@ or
   - [ ] Views
     - Pages
       - [X] Basic creating a page ( with different extension like .vue, .ts & .tsx )
-        *source file:* 
-        - **pages/page-with-vue/index.vue**
-        - **pages/page-with-ts/index.ts**
-        - **pages/page-with-tsx/index.tsx**
-      - [ ] Dynamic route
+        *example file:* 
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/page-with-vue/index.vue">pages/page-with-vue/index.vue</a>
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/page-with-ts/index.ts">pages/page-with-ts/index.ts</a>
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/page-with-tsx/index.tsx">pages/page-with-tsx/index.tsx</a>
+      - [x] Dynamic route
+      Create dynamic route with add **[ ]** bracket to the file or directory.
+      Catch the value with **$route.params[your-dynamic-route-name]**
+        **example file:**
+          Dynamic route with directly to the file.
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/dynamic-route/users/[user].vue">pages/dynamic-route/users/[user].vue</a>
+       
+        Dynamic route with directly to the directory.
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/dynamic-route/permission-[role]/index.vue">pages/dynamic-route/permission-[role]/index.vue</a>
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/dynamic-route/permission-[role]/[access]/index.vue">pages/dynamic-route/permission-[role]/[access]/index.vue</a>
+    - 
       - [ ] Catch all route
       - [ ] Nested routes
       - [ ] Child route
