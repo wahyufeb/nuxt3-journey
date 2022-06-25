@@ -88,8 +88,13 @@ or
         Dynamic route with directly to the directory.
         - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/dynamic-route/permission-[role]/index.vue">pages/dynamic-route/permission-[role]/index.vue</a>
         - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/dynamic-route/permission-[role]/[access]/index.vue">pages/dynamic-route/permission-[role]/[access]/index.vue</a>
-    - 
-      - [ ] Catch all route
+      - [X] Catch all route\
+      *example file:*
+        Create page for **catch all route** from the path (specifically for the "*catch-route*" path)
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/catch-route/[...slug].vue">pages/catch-route/[...slug].vue</a>
+
+        Create file with name **404.vue** on the pages/ folder to handle all routes that are not otherwise matched. 
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/404.vue">pages/404.vue</a>
       - [ ] Nested routes
       - [ ] Child route
       - [ ] Page metadata
