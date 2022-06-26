@@ -100,10 +100,10 @@ or
       If we access URL path "**parent/child**" than the view from parent will be showed.\
       *example file:*\
         Create the **Parent View**
-        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/parent/index.vue">parent/index.vue</a>
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/parent/index.vue">pages/parent/index.vue</a>
 
         Create the **Child View**
-        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/parent/index/child.vue">parent/index/child.vue</a>
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/parent/index/child.vue">pages/parent/index/child.vue</a>
       - [ ] Page metadata
       - [ ] Page navigation
     - Layouts **(soon)**
