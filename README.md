@@ -97,7 +97,7 @@ or
         - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/404.vue">pages/404.vue</a>
       - [X] Nested routes & Child Route\
       To creating the parent view, just add the **NuxtPage** tag to the parent file (*template*), and create a folder & file for the child view.\
-      If we access URL path "**parent/child**" than the view from parent will be showed.
+      If we access URL path "**parent/child**" than the view from parent will be showed.\
       *example file:*
         Create the **Parent View**
         - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/parent/index.vue">parent/index.vue</a>
