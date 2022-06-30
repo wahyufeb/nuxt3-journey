@@ -104,7 +104,13 @@ or
 
         Create the **Child View**
         - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/parent/index/child.vue">pages/parent/index/child.vue</a>
-      - [ ] Page metadata
+      - [X] Page metadata\
+        To define metadata in a route page use **definePageMeta** macro\
+        *example file:*\
+        You can add some properties to the **definePageMeta** macro, i.e (keepalive, middleware, alias, layoutTransition and pageTransition)\
+        In this example I use exported data (**title** and **description**) from separate file on *constants directory*
+        - <a target="_blank" href="https://github.com/wahyufeb/nuxt3-journey/blob/master/pages/page-metadata/index.vue">pages/page-metadata/index.vue</a>
+
       - [ ] Page navigation
     - Layouts **(soon)**
     - Components **(soon)**
