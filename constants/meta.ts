@@ -1,0 +1,2 @@
+export const title: string  = "Nuxt3 Journey with Wahyu Febrianto"
+export const description: string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit amet est placerat in. Aliquet eget sit amet tellus cras. Eu sem integer vitae justo eget magna."
